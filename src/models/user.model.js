@@ -3,7 +3,7 @@ import mongoose from 'mongoose'
 const userSchema = new mongoose.Schema({
   watchHistory: [
     {
-      type: mongoose.Types.ObjectId,
+      type: Schema.Types.ObjectId,
       ref: 'video'
     }
   ],
